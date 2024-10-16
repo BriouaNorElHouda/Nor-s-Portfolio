@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nor's Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js"></script>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Salsa&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Ruluko&family=Salsa&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    
+    <div class="container">
+    <!-- Name -->
+    <div class="nom">Nor Brioua.</div>
+    
+    <!-- Project -->
+    <button class="Project" onclick="scrollToProject()">Project</button>
+    <!-- Contact me -->
+    <button class="Contactme" onclick="scrollToFooter()">Contact me</button>
+
+
+    <!-- Greeting -->
+    <div class="hi">Hello, I'm Nor!</div>
+
+    <!-- Description -->
+    <div class="desc">
+      A computer science engineer from Algeria, driven by a passion for exploring diverse areas of technology. After dedicating countless hours to numerous projects and assignments, I’m thrilled to showcase some of my work here on this site.
+    </div>
+    
+    <!-- Portfolio Button -->
+    <button class="portfolio-btn"onclick="scrollToProject()">My Portfolio</button>
+
+     
+
+    <div class="leftimg">
+        <img src="images/desktop.png" alt="Image">
+    </div>
+    
+
+</div>
+    <div id="project-section"  class="container">
+        
+        <div class="block">
+ <!-- Description telsat dev -->
+            <div class="right">
+                <img src="images/telsat.png" alt="Image of telsatdev">
+              </div>
+       
+          <div class="left">
+            <h3>Intelligent Land Classification System: Deep Learning on Satellite Images</h3>
+            <ul>
+                <li>Collaborated on a Master’s project to develop a deep learning-based land classification system using satellite imagery, achieving 96% accuracy. I implemented the majority of the system's components.</li><br>
+                <li>Applied advanced segmentation techniques to classify land into categories and used vegetation indices like NDVI for better detection of vegetation-rich areas.</li><br>
+                <li>Developed CNN-based models for pixel-level classification, improving land monitoring for urban planning, environmental management, and agriculture.</li>
+              </ul>
+              
+          </div>
+        
+         
+        </div>
+
+        <div class="block">
+           <!-- matlab(2) -->
+            <div class="left">
+              <h3>MATLAB GUI Application: Additive Pixel Steganography <a href="https://github.com/BriouaNorElHouda/MatlabCodes/tree/main/Steganography" target="_blank">
+                <i class="fab fa-github"></i>
+            </a></h3>
+              <ul>
+                <li>Developed a MATLAB-based GUI application for Additive Pixel Steganography, allowing users to encode text into both grayscale and color (RGB) images.</li><br>
+                <li>Implemented a custom algorithm that adds ASCII values to pixel data, ensuring compatibility with 8-bit images through overflow handling.</li><br>
+                <li>Designed a user-friendly interface for easy image upload, text input, and message extraction, demonstrating strong skills in image processing, GUI design, and data encoding techniques.</li>
+              </ul>
+            </div>
+           
+            <div class="right">
+              <img src="images/matlab.PNG" alt="Image de matlab">
+            </div>
+          </div>
+          <div class="block">
+<!-- Description MCHAT-->
+            <div class="right">
+                <img src="images/chat.png" alt="Image of chat">
+              </div>
+        
+          <div class="left">
+            <h3>Multi-Client Chat Application: Java Swing & MySQL <a href="https://github.com/BriouaNorElHouda/Muliclient_chat_javaswing" target="_blank">
+                <i class="fab fa-github"></i>
+            </a></h3>
+            <ul>
+                <li>Developed a multi-client chat application using Java Swing for the interface and MySQL for user authentication and management, supporting real-time messaging and broadcasting to all active clients.</li><br>
+                <li>Implemented login, registration, and user authentication with MySQL, ensuring secure communication and managing concurrent connections for multiple clients.</li><br>
+                <li>Enabled responsive chat window for users to send/receive messages and disconnect from the server, automatically updating the client list and notifying other users.</li>
+              </ul>
+              
+              
+              
+          </div>
+        
+         
+        </div>
+       <!-- Description RESERVATION -->
+        <div class="block">
+           
+            <div class="left">
+              <h3>Room/Lecture Hall Reservation Management System <a href="https://github.com/BriouaNorElHouda/WORKSHOP" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+            </h3>
+            <ul>
+                <li>Developed a web application using Laravel 8 and Bootstrap 5 for room and lecture hall reservations within a faculty, implementing full CRUD operations in a MySQL database managed via phpMyAdmin.</li><br>
+                <li>Led back-end development and contributed to front-end work, collaborating with a classmate on additional features for efficient scheduling management.</li><br>
+                <li>Designed for teachers and administrators, the platform streamlines administrative tasks and reduces scheduling conflicts with an intuitive user interface.</li>
+              </ul>
+              
+              
+            </div>
+           
+            <div class="right">
+              <img src="images/homePNG.PNG" alt="Image of reserv">
+            </div>
+          </div>
+          <div class="block">
+<!-- Description blog-->
+            <div class="right">
+                <img src="images/image23.png" alt="Image de blog">
+              </div>
+        
+          <div class="left">
+            <h3>Personal Blog: React.js Applicatione <a href="https://github.com/BriouaNorElHouda/TP_CAW/tree/main/MiniProjetmulti" target="_blank">
+                <i class="fab fa-github"></i>
+            </a></h3>
+                <ul>
+                    <li>Developed a personal blog platform using React.js, enabling users to create and manage blog posts with ease.</li><br>
+                    <li>Implemented a likes feature to track engagement on posts, enhancing interaction and user involvement.</li><br>
+                    <li>Introduced a dark/light mode toggle, offering customizable themes to improve user experience and accessibility.</li>
+                  </ul>
+                  
+          </div>
+        
+         
+        </div>
+
+        <div class="block">
+           <!-- Description fotball-->
+            <div class="left">
+              <h3>National Football Team Player Profile <a href="https://github.com/BriouaNorElHouda/footballteam" target="_blank">
+                <i class="fab fa-github"></i>
+            </a></h3>
+              <ul>
+                <li>Developed a web application to showcase a national football team's player profile using HTML, CSS, PHP, and XAMPP, integrating front-end and back-end components.</li><br>
+                <li>Implemented CRUD operations to manage player data (name, age, goals, career stats) stored in a MySQL database, with PHP handling data processing.</li><br>
+                <li>Gained hands-on experience in web development, focusing on front-end design, back-end integration, and content management as part of my first project.</li>
+              </ul>
+              
+            </div>
+           
+            <div class="right">
+              <img src="images/footb.PNG" alt="Image">
+            </div>
+          </div>
+          <div class="block">
+            <!-- Description xo-->
+            <video width="100%" height="auto" controls>
+                <source src="images/xo.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+             <div class="left">
+               <h3>Tic-Tac-Toe Game <a href="https://github.com/BriouaNorElHouda/XO-game" target="_blank">
+                <i class="fab fa-github"></i>
+            </a></h3>
+               <ul>
+                <ul>
+                        <li>Developed a mobile Tic-Tac-Toe game using Flutter (Dart), with single-player (play against a robot) and multiplayer modes (two users can play together).</li><br>
+                        <li>Implemented result tracking that displays the outcome (X or O win) and updates the score; ties do not change the score.</li>
+                      </ul>
+                       
+                  
+               
+             </div>
+            
+             
+           </div>
+       
+  </div>
+
+  <!-- Footer section using <footer> -->
+    <footer id="footer-section" class="footer">
+        <h3>Contact me</h3>
+        <button onclick="sendEmail()">
+            <i class="fa fa-envelope"></i>
+            E-mail
+        </button>
+        <button onclick="redirectToLinkedIn()">
+            <i class="fab fa-linkedin"></i>LinkedIn
+        </button>
+        <button  onclick="redirectToGitHub()">
+                    <i class="fab fa-github"></i>GitHub
+        </button>
+        <button >
+                    <i class="fas fa-phone"></i> 
+            +213559449294
+        </button>       
+
+             <p>© 2024 Nor el houda BRIOUA. All rights reserved.</p>
+      </footer>
+
+
+    
+</body>
+
+
+
+
+ 
+</html>
