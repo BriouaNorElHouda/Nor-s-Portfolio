@@ -1,244 +1,298 @@
 /* General Setup */
 html, body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Ruluko', sans-serif;
-    background-color: #ffff;
-    overflow-x: hidden;
-    scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  font-family: 'Ruluko', sans-serif;
+  background-color: #ffff;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 /* Main Container */
 .container {
-    width: 100vw;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    padding-bottom:5vw;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  padding-bottom:5vw;
 }
 
 /* Main Title */
 .nom {
-    font-family: 'Salsa', cursive;
-    font-size: 2.29vw;
-    line-height: 2.80vw;
-    color: #000;
-    margin-left: 2.45vw;
-    margin-top: 2vw;
-    left: 2.97vw;
+  font-family: 'Salsa', cursive;
+  font-size: 2.29vw;
+  line-height: 2.80vw;
+  color: #000;
+  margin-left: 2.45vw;
+  margin-top: 2vw;
+  left: 2.97vw;
 }
 .Project {
-    /* Positioning */
-    position: absolute;
-    width: 11.32vw;  /* 163px = (163 / 1440) * 100 */
-    height: 4.38vw;  /* 63px = (63 / 1440) * 100 */
-    left: 73.97vw;   /* 950px = (950 / 1440) * 100 */
-    top: 1vw;
+  /* Positioning */
+  position: absolute;
+  width: 11.32vw;  /* 163px = (163 / 1440) * 100 */
+  height: 4.38vw;  /* 63px = (63 / 1440) * 100 */
+  left: 73.97vw;   /* 950px = (950 / 1440) * 100 */
+  top: 1vw;
 
-    /* Typography */
-    font-family: 'Ruluko', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.88vw; /* 27px = (27 / 1440) * 100 */
-    line-height: 2.57vw; /* 37px = (37 / 1440) * 100 */
+  /* Typography */
+  font-family: 'Ruluko', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.88vw; /* 27px = (27 / 1440) * 100 */
+  line-height: 2.57vw; /* 37px = (37 / 1440) * 100 */
 
-    /* Colors */
-    color: #000000;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
+  /* Colors */
+  color: #000000;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
 }
 
 .Contactme {
-    /* Positioning */
-    position: absolute;
-    width: 13.32vw;  /* 163px = (163 / 1440) * 100 */
-    height: 4.38vw;  /* 63px = (63 / 1440) * 100 */
-    left: 83.86vw;   /* 1150px = (1150 / 1440) * 100 */
-    top: 1vw;
+  /* Positioning */
+  position: absolute;
+  width: 13.32vw;  /* 163px = (163 / 1440) * 100 */
+  height: 4.38vw;  /* 63px = (63 / 1440) * 100 */
+  left: 83.86vw;   /* 1150px = (1150 / 1440) * 100 */
+  top: 1vw;
 
-    /* Typography */
-    font-family: 'Ruluko', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.88vw; /* 27px = (27 / 1440) * 100 */
-    line-height: 2.57vw; /* 37px = (37 / 1440) * 100 */
+  /* Typography */
+  font-family: 'Ruluko', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.88vw; /* 27px = (27 / 1440) * 100 */
+  line-height: 2.57vw; /* 37px = (37 / 1440) * 100 */
 
-    /* Colors */
-    color: #a6b9fd;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
+  /* Colors */
+  color: #a6b9fd;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
 }
 
 /* Greeting */
 .hi {
-    font-family: 'Salsa', cursive;
-    font-size: 5.74vw;
-    line-height: 7.05vw;
-    color: #000;
-    margin-left: 7.22vw;
-    margin-top: 12.12vw;
-    width: 23.18vw;
-    height: 7.11vw;
-    left: 7.22vw;
-    top: 12.12vw;
+  font-family: 'Salsa', cursive;
+  font-size: 5.74vw;
+  line-height: 7.05vw;
+  color: #000;
+  margin-left: 7.22vw;
+  margin-top: 12.12vw;
+  width: 23.18vw;
+  height: 7.11vw;
+  left: 7.22vw;
+  top: 12.12vw;
 }
 
 /* Description */
 .desc {
-    font-family: 'Ruluko', sans-serif;
-    font-size: 1.70vw;
-    line-height: 1.70vw;
-    color: #000;
-    margin-left: 7.14vw;
-    margin-top: 5.5vw;  /* Adjust margin to give space below the greeting */
-    padding: 1vw;
-    
-    width: 35.36vw;
-    height: 7.59vw;
-    left: 7.14vw;
-    top: 24.46vw;
+  font-family: 'Ruluko', sans-serif;
+  font-size: 1.70vw;
+  line-height: 1.70vw;
+  color: #000;
+  margin-left: 7.14vw;
+  margin-top: 5.5vw;  /* Adjust margin to give space below the greeting */
+  padding: 1vw;
+  
+  width: 35.36vw;
+  height: 7.59vw;
+  left: 7.14vw;
+  top: 24.46vw;
 }
 
 .leftimg {
-    position: absolute;
-    top: 10vw; /* Adjust the top position as needed */
-    right: 7vw; /* Adjust the right position as needed */
-    width: 41.5vw; /* Adjust the width as needed */
+  position: absolute;
+  top: 10vw; /* Adjust the top position as needed */
+  right: 7vw; /* Adjust the right position as needed */
+  width: 41.5vw; /* Adjust the width as needed */
 }
 
 .leftimg img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
 }
 /* Button */
 .portfolio-btn {
-    width: 24.36vw;
-    height: 3.50vw;
-    margin-left: 7.14vw;
-    margin-top: 1vw;  /* Adjust space between button and description */
-    font-family: 'Ruluko', sans-serif;
-    font-size: 1.5vw;
-    line-height: 3.50vw;
-    color: #fff;
-    background-color: #5757b6;
-    border-radius: 1.75vw;
-    text-align: center;
-    border: none;
-    cursor: pointer;
-     top: 20.46vw;
+  width: 24.36vw;
+  height: 3.50vw;
+  margin-left: 7.14vw;
+  margin-top: 1vw;  /* Adjust space between button and description */
+  font-family: 'Ruluko', sans-serif;
+  font-size: 1.5vw;
+  line-height: 3.50vw;
+  color: #fff;
+  background-color: #5757b6;
+  border-radius: 1.75vw;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+   top: 20.46vw;
 }
 
 .portfolio-btn:hover {
-    background-color: #a6b9fd;
+  background-color: #a6b9fd;
 }
 /* General Setup */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Container */
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* Block Layout */
+.block {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 350px; /* Height for each block */
+  margin-bottom: 20px; /* Space between blocks */
+}
+
+/* Left & Right Sections */
+.left, .right {
+  width: 720px; /* Half of 1440px */
+  height: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* Text Styling */
+.left h3 {
+  font-size: 1.50vw;
   
-  /* Container */
-  .container {
-    width: 100%;
-    max-width: 1440px;
-    margin: 0 auto;
-  }
-  
-  /* Block Layout */
-  .block {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    height: 350px; /* Height for each block */
-    margin-bottom: 20px; /* Space between blocks */
-  }
-  
-  /* Left & Right Sections */
-  .left, .right {
-    width: 720px; /* Half of 1440px */
-    height: 100%;
-    padding: 10px;
-    box-sizing: border-box;
-  }
-  
-  /* Text Styling */
-  .left h3 {
-    font-size: 1.50vw;
-    
-    font-family: 'Salsa', cursive;
-  }
-  
-  .left ul {
-    font-size: 18px;
-    color: #000000;
-    font-family: 'Ruluko', sans-serif;
-    line-height: 2.05vw;
-  }
-  
-  /* Image Styling */
-  .right img {
-    width: 100%;
-    height: 100%;
-   
-  }
-  .right video {
-    width: 100%;
-    height: 100%;
-    top:21.05vw;
-  }
+  font-family: 'Salsa', cursive;
+}
+
+.left ul {
+  font-size: 18px;
+  color: #000000;
+  font-family: 'Ruluko', sans-serif;
+  line-height: 2.05vw;
+}
+
+/* Image Styling */
+.right img {
+  width: 100%;
+  height: 100%;
  
+}
+.right video {
+  width: 100%;
+  height: 100%;
+  top:21.05vw;
+}
 
-  .footer {
-    width: 100%;
-    height: 201px; /* Same height as your sections (or adjust accordingly) */
-    background-color: black; /* Dark background color */
-    color: white; /* White text color */
-    text-align: center; /* Center text */
-    padding: 20px 0; /* Add padding for spacing */
-    position: relative;
-    bottom: 0;
+
+.footer {
+  width: 100%;
+  height: 201px; /* Same height as your sections (or adjust accordingly) */
+  background-color: black; /* Dark background color */
+  color: white; /* White text color */
+  text-align: center; /* Center text */
+  padding: 20px 0; /* Add padding for spacing */
+  position: relative;
+  bottom: 0;
+}
+.footer button{
+  width: 17vw;
+  height: 3.50vw;
+  margin-left: 1.5vw;
+  margin-bottom: 2vw;
+  margin-top: 1vw;  /* Adjust space between button and description */
+  font-family: 'Ruluko', sans-serif;
+  font-size: 1.5vw;
+  line-height: 3.50vw;
+  color: #fff;
+  background-color: #5757b6;
+  border-radius: 1.75vw;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+   top: 20.46vw;}
+
+   .footer button:hover {
+      background-color: #a6b9fd;
   }
-  .footer button{
-    width: 17vw;
-    height: 3.50vw;
-    margin-left: 1.5vw;
-    margin-bottom: 2vw;
-    margin-top: 1vw;  /* Adjust space between button and description */
-    font-family: 'Ruluko', sans-serif;
-    font-size: 1.5vw;
-    line-height: 3.50vw;
-    color: #fff;
-    background-color: #5757b6;
-    border-radius: 1.75vw;
-    text-align: center;
-    border: none;
-    cursor: pointer;
-     top: 20.46vw;}
+.footer h3 {
+  font-size: 1.50vw;
+  
+  font-family: 'Salsa', cursive;
+}
+.footer a {
+  color: #fff; /* White links */
+  text-decoration: none; /* Remove underline from links */
+}
 
-     .footer button:hover {
-        background-color: #a6b9fd;
-    }
+.footer a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+.footer p {
+ 
+   font-family: 'Ruluko', sans-serif;}
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  
+  /* H3 and list items adjustments */
+  h3 {
+    font-size: 3vw !important;  /* Force size change */
+    text-align: left;            /* Align to left */
+    margin-bottom: 1vw;          /* Space below h3 */
+  }
+
+  .desc {
+    width: 50vw;
+    font-size: 2vw;
+  }
+
+  ul {
+    list-style-position: inside; 
+    padding-left: 0;             /* Remove default padding */
+    margin-bottom: 1.5vw;        /* Add space after list */
+  }
+
+  li {
+    font-size: 3vw;       /* Adjust font size for mobile */
+    line-height: 3.50vw;  /* Line height for readability */
+    margin-bottom: 1vw;   /* Space between list items */
+  }
+
+  /* General block spacing */
+  .block {
+    margin-bottom: 1rem; /* Space between blocks */
+  }
+
+  /* Remove any previous layout rules for .right and .left */
+  .left, .right {
+    display: block;
+    width: 100%;      /* Full width on mobile */
+    margin-bottom: 1rem; /* Space between each block */
+  }
+
   .footer h3 {
-    font-size: 1.50vw;
-    
-    font-family: 'Salsa', cursive;
+    font-size: 6vw; /* Increase footer text size */
   }
-  .footer a {
-    color: #fff; /* White links */
-    text-decoration: none; /* Remove underline from links */
-  }
-  
-  .footer a:hover {
-    text-decoration: underline; /* Underline on hover */
-  }
-  
+
   .footer p {
-   
-     font-family: 'Ruluko', sans-serif;
+    font-size: 4vw; /* Larger paragraph text */
   }
-  
+
+  .footer button {
+    width: 40vw; 
+    height: 8vw;
+    font-size: 4vw;
+  }
+}
+
+
+/* finally responsive*/
